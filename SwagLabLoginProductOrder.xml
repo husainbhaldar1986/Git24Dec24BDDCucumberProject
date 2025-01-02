@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <classes>
+  <class name="RTE_Runner.RTE1_SwagLabLogin_Runner"></class>
+  <class name="RTE_Runner.RTE2_SwagLabProduct_Runner"></class>
+  <class name="RTE_Runner.RTE3_SwagLabOrder_Runner"></class>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

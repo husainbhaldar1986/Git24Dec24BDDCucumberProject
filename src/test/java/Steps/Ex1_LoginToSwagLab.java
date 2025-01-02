@@ -1,5 +1,7 @@
 package Steps;
 
+import org.testng.Assert;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -34,6 +36,9 @@ public class Ex1_LoginToSwagLab
 	public void user_should_be_on_home_page()
 	{
 		System.out.println("-------On Home Page--------");
+		String act = "Hi";
+		String exp = "Hi";
+		Assert.assertEquals(act, exp, "Failed: Mismatch act and exp");
 	}
 
 
